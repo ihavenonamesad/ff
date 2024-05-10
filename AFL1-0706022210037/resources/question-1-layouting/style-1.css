@@ -1,0 +1,197 @@
+/*Nama: Eka Suwandi Yuliantho
+NIM: 0706022210037*/
+body {
+	margin:0;
+	padding:0;
+	width:100%;
+	background:top center;
+	font-family: sans-serif;
+	background-color: #F9f9f9;
+}
+html {
+	padding:0;
+	margin:0;
+}
+li.bg, .bg {
+	clear:both;
+	border-bottom:1px dashed #818181;
+	padding:0;
+	margin:10px 0;
+	background:none;
+	list-style:none;
+}
+p.clr, .clr {
+	clear:both;
+	padding:0;
+	margin:0;
+}
+.main {
+	margin:0 auto;
+	padding:0;
+	
+}
+.header_resize {
+	margin:0 auto;
+	padding:0;
+	width:920px;
+}
+.header {
+	margin:0;
+	padding:0;
+	background:url(images/header_bg.gif) top repeat-x;
+	border-bottom: 20px solid;
+	border-color: white;
+}
+.logo {
+	width:920px;
+	margin:0 auto;
+	padding:0;
+	float:left;
+	text-align: center;
+	background-image: url(images/logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-position-y: 30px;
+	background-position-x: 45%;
+	padding: 80px 0px 50px 70px ;
+	
+}
+.logo h1{
+	text-align: center;
+	margin-left: -15%;
+}
+.logo h1 a{
+	text-decoration: none;
+	color: white;
+	font-weight: 500;
+} 
+.logo span{
+	color:yellow;
+	text-decoration: none;
+	font-weight: 700;
+}
+.logo h1 small{
+	font-size:10px;
+}
+.menu ul{
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+.menu li {
+	float: left;
+}
+  
+.menu li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+}
+  
+.menu li a:hover {
+	background-image:url(images/r_menu.gif);
+  }
+.body_resize{
+	margin:0 auto;
+	padding:0;
+	width:1000px;
+}
+.left h2 span{
+	color:olive;
+}
+.floated{
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin: 20px 10px 0px 10px;
+}
+.left{
+	float: left;
+	margin-right: 290px;
+}
+.right{
+	float: right;
+	margin-top: -735px;
+}
+.right h2 span{
+	color: olive;
+}
+.right li a{
+	color: black;
+	text-decoration: none;
+}
+.right li{
+	list-style-image: url(images/ul_li.gif);
+	padding-bottom: 10px ;
+}
+#textfield{
+	position:sticky;
+}
+.FBG_resize{
+	border-top: 5px solid;
+	border-color: olive;
+	width: 1000px;
+	margin:0 auto;
+	padding:0;
+   -moz-column-count: 3;
+   -moz-column-gap: 1px;
+   -webkit-column-count: 3;
+   -webkit-column-gap: 1px;
+   column-count: 3;
+   column-width: 100%;
+   column-gap: 1px;
+   max-width: 100%;
+	overflow: hidden;
+	display: flex;
+}
+.blok img{
+	float: left;
+	margin-right: 10px;
+}
+.blok p{
+	font-size: 15px;
+}
+.blok h2 span{
+	color: olive;
+}
+.left p a{
+	color: olive;
+	margin-left: -3px;
+}
+.left p{
+	margin-left: 10px ;
+}
+.search [name="q"]{
+	height: 25px;
+	width: 180px;
+	position: absolute;
+}
+.search [name="b"]{
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	margin-top: 0px;
+}
+.FBG {
+	overflow: hidden;
+}
+.blok {
+	max-width: 32%;
+	padding-left: 20px;
+}
+.blok p.clr, .clr {
+	clear: both;
+	padding: 0;
+	margin: 0;
+}
+.blok img{
+	height: 80px;
+	width: 80px;
+}
+.left a{
+	margin-left: 10px;
+}

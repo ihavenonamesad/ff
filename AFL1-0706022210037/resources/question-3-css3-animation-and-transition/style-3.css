@@ -1,0 +1,106 @@
+/*Nama: Eka Suwandi Yuliantho
+NIM: 0706022210037*/
+@font-face {
+    font-family:stroke;
+    src:url('Stroke-Regular.otf');
+}
+
+body{
+ background-color: green, transparent;
+    background-repeat: repeat, no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: auto, cover;
+    -moz-background-size: auto, cover;
+    background-size: auto, cover;
+ color: #fff;
+ font-family: Arial, sans-serif;
+ font-size: 24px;
+ animation: flash 150ms;
+}
+
+#container{
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 750px;
+    width: 1537px;
+    margin: -10px 0px 0px -10px;
+}
+.menu {
+    font-family: stroke;
+    font-size: 20px;
+    margin: 20px 1000px 20px 30px;
+    opacity: 1;
+}
+#container h1{
+    text-shadow: 1px 5px 3px grey;
+    padding: 70px 0px 60px 50px;
+    opacity: 1;
+    margin-bottom: -30px;
+}
+#menu1, #menu2 , #menu3, #menu4 , #menu5{
+    border: 3px solid rgb(106, 93, 17);
+    background-color: rgb(117, 153, 62, 0.3);
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    color: black;
+    padding: 10px;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-size: larger;
+    width: 300px;
+    height: 40px;
+    text-align:left;
+    padding-top: 30px;
+}
+
+#menu1:hover , #menu2:hover , #menu3:hover , #menu4:hover , #menu5:hover{
+    background-color: rgb(116, 69, 0);
+    color: white;
+    border-color: white;
+    padding-left: 30px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: black 10%;
+    -moz-text-fill-color: white;
+    -webkit-text-fill-color:white;
+    transition-duration: 1s;
+    opacity: 1;
+}
+
+#menu1{
+    animation : popout 2000ms ease-in-out 800ms, fadeout 2000ms ease-in  800ms;
+}
+#menu2{
+    animation : popout 2000ms ease-in-out 1300ms, fadeout 2000ms ease-in 1300ms;
+}
+
+#menu3{
+    animation : popout 2000ms ease-in-out 1800ms, fadeout 2000ms ease-in 1800ms;
+}
+
+#menu4{
+    animation : popout 2000ms ease-in-out 2300ms, fadeout 2000ms ease-in 2300ms;
+}
+
+#menu5{
+    animation : popout 2000ms ease-in-out 2800ms, fadeout 2000ms ease-in 2800ms;
+}
+
+
+@keyframes popout {
+    0%{transform:scale(100%) ;}
+    25%{transform:scale(200%) ;}
+    65%{transform:scale(200%) ;}
+    100%{transform: scale(100%) ;}
+  }
+
+@keyframes fadeout {
+    0%{opacity: 1}
+    25%{opacity: 0}
+    75%{opacity: 0}
+    100%{opacity: 1}
+  }
+  @keyframes flash{
+    from {background:white;}
+    99% {background:white;}
+    to {background:red;}
+}
+    
